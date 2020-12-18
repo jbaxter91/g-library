@@ -1,0 +1,24 @@
+{
+  "name": "g-library",
+  "version": "1.0.0",
+  "description": "The G Library is your one stop show for finding and reviewing books on google",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbaxter91/g-library.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbaxter91/g-library/issues"
+  },
+  "homepage": "https://github.com/jbaxter91/g-library#readme"
+}
