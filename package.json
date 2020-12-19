@@ -4,11 +4,17 @@
   "description": "The G Library is your one stop show for finding and reviewing books on google",
   "main": "index.js",
   "dependencies": {
-    "create-react-app": "^4.0.1"
+    "cors": "^2.8.5",
+    "create-react-app": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",

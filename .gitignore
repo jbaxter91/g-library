@@ -1,4 +1,5 @@
 _requirements
+*.env
 # Logs
 logs
 *.log
