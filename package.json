@@ -2,7 +2,7 @@
   "name": "g-library",
   "version": "1.0.0",
   "description": "The G Library is your one stop show for finding and reviewing books on google",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "cors": "^2.8.5",
     "create-react-app": "^4.0.1",
