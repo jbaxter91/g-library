@@ -17,11 +17,11 @@ const Home = (props) => {
     },[]);
 
   return (
-    <div className="Home-wrapper">
+    <div>
       <NavBar />
       <Grid xs={12} container direction="column">
         <HeroBanner/>
-        <BookList actionName="Delete" books={savedBooks} title="Saved Books" />
+        <BookList actionName="Delete" books={savedBooks} setBooks={setSavedBooks} title="Saved Books" />
       </Grid>
     </div>
   );

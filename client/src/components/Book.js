@@ -5,13 +5,15 @@ const Book = (props) => {
   function performAction() {
     switch (props.actionName) {
       case "Add":
-        API.saveBook({title:props.title, author: props.author, description: props.description, image:props.src }).then((res) => {
-          console.log(res);
+        API.saveBook({title:props.title, author: props.author, description: props.description, image:props.src }).then(() => {
+          
         });
         break;
       case "Delete":
-        API.deleteBookByID(props.id).then((res) => {
-          console.log(res);
+        API.deleteBookByID(props.id).then(() => {
+          API.getBooks().then((res) => {
+            props.setBooks(res.data);
+          });
         });
         break;
     }

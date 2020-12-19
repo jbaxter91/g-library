@@ -23,6 +23,7 @@ const BookList = props=>{
             actionName={props.actionName}
             selectedBook={props.selectedBook}
             id={res._id ? res._id : res.key}
+            setBooks={props.setBooks}
             />
             )) : null}
             </Grid>

@@ -9,12 +9,12 @@ const Search = (props) => {
   const [searchBooks, setsearchBooks] = useState([]);
 
   return (
-    <div className="Search-wrapper">
+    <div>
       <NavBar />
       <Grid container direction="column">
         <HeroBanner/>
         <SearchField books={searchBooks} setBooks={setsearchBooks}/>
-        <BookList actionName="Add" books={searchBooks} title="Results" />
+        <BookList actionName="Add" books={searchBooks} setBooks={setsearchBooks} title="Results" />
       </Grid>
     </div>
   );
